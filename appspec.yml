@@ -3,6 +3,8 @@ os: linux
 files:
   - source: /
     destination: /var/www/html/
+    exclude:
+      - .gitignore   # Exclude .gitignore from being deployed
 
 hooks:
   ApplicationStop:
