@@ -1,0 +1,11 @@
+# Ignore deployment-specific files
+appspec.yml
+buildspec.yml
+aws_ec2_codedeploy.yml
+scripts/
+_config.yml
+README.md
+
+# Ignore files you don’t need in the image
+*.md
+
